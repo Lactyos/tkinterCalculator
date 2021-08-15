@@ -94,5 +94,6 @@ buttonDivi.grid(row=5, column=2)
 buttonEqual.grid(row=6, columnspan=3)
 
 
+root.resizable(False, False)
 root.title("Calculator")
 root.mainloop()
